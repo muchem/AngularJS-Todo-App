@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet"href = "./CSS/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <title>To-Do App</title>
 </head>
 <body ng-controller = "appCtrl">
     <div>
+        <header>
+            <h1 class = 'title'>
+                To-Do
+            </h1>
+        </header>
+        <div class = "container">
             <ul ng-repeat = "Todo in Todos">
-                <li>{{Todo}}</li>
+                <li>{{Todo}}</li><span><button ng-click = "removeitem()">X</button></span>
             </ul>
-            <input ng-model = "item" placeholer = "enter Todo"><button ng-click = "addTodo()">Add Todo</button>
+            <input ng-model = "item" placeholer = "Enter a Todo item"><button class = "addbnt" ng-click = "addTodo($index)">Add Todo</button>
     </div>
+</div>
     <script src="./JS/module.js"></script>
     <script src = "./JS/controller.js"></script>
 </body>

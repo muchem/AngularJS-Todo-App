@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+header{
+    background-color:#10cf10;
+}
+.title{
+    color:white;
+    padding:25px 0 25px 0;
+    text-align:center;
+}
+li{
+    list-style:none;
+    padding:20px 0 20px 0;
+    font-size:25px;
+    border-top:#ebe4e4 solid 2px;
+}
+.addbnt{
+   
+    height:44px;
+    padding:10px;
+}
+input{
+width: 80%;
+height:40px;
+}
+.container{
+    margin:auto;
+    width:50%;
+}
