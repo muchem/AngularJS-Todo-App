@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app = "app">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">dffsdf
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>To-Do App</title>
 </head>
-<body>
-    
+<body ng-controller = "appCtrl">
+    <div>
+            <ul ng-repeat = "Todo in Todos">
+                <li>{{Todo}}</li>
+            </ul>
+            <input ng-model = "item" placeholer = "enter Todo"><button ng-click = "addTodo()">Add Todo</button>
+    </div>
+    <script src="./JS/module.js"></script>
+    <script src = "./JS/controller.js"></script>
 </body>
 </html>
