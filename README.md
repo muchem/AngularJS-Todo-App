@@ -23,8 +23,8 @@ git bash
 Have Fun!!
 
 Built With:
-    Html
-    Css
+    Html,
+    CSS
     AngularJS
 
 
