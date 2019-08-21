@@ -38,3 +38,11 @@ height:40px;
     margin:auto;
     width:50%;
 }
+@media screen and (max-width:842px){
+    .addbnt{
+        margin-top:10px;
+    }
+    .container{
+        width:90%;
+    }
+}
