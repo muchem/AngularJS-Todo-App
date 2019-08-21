@@ -16,11 +16,12 @@
             </h1>
         </header>
         <div class = "container">
-
             <ul ng-repeat = "Todo in Todos">
                 <li>{{Todo}} <span><button class="removebnt" ng-click="removeitem($index)">X</button></span></li>
             </ul>
+            <div class = "Ctrls">
             <input ng-model = "item" placeholer = "Enter a Todo item"><button class = "addbnt" ng-click = "addTodo($index)">Add Todo</button>
+            </div>
     </div>
 </div>
     <script src="./JS/module.js"></script>
