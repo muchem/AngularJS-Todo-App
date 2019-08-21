@@ -7,5 +7,4 @@ app.controller('appCtrl', function($scope){
           $scope.Todos.push($scope.item);
           $scope.item = "";
       }
-    
 });
