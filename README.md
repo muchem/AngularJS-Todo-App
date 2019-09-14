@@ -16,7 +16,7 @@ git bash
  
  2.Open Project Folder
  
- 3.Open index.html in your browser
+ 3.Open index.html in your browser.
  
  4.Explore and Recreate
 
